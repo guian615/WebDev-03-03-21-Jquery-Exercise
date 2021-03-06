@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> jQuery Exercises</title>
+    <link rel="shortcut icon" href="https://wallpaperaccess.com/full/2980955.jpg">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Auto-Biography -->
+    <div class="container-fluid mt-4">
+        <div class="text-center">
+           <h1><marquee behavior="scroll" direction="left " scrollamount="12">𝓳𝓠𝓾𝓮𝓻𝔂 𝓔𝔁𝓮𝓻𝓬𝓲𝓼𝓮𝓼</marquee></h1>
+
+            <img src="https://sevenpie.com/wp-content/uploads/2018/04/TWICE-Time.jpg" class="img-fluid" alt="...">
+            <div class="-left" style="position: absolute; bottom: 75px ;left: 120px; font-size: 30px; color:deeppink;">
+                <u> 𝙂𝙪𝙞𝙖𝙣 𝙑𝙞𝙘𝙩𝙤𝙧 𝘼𝙢𝙖𝙣𝙘𝙞𝙤 </u>
+                <b>
+                    <p style="color: black;">
+                        작성자 :
+                    </p>
+                </b>
+
+            </div>
+
+            <div class="container-fluid mt-4">
+                <div class="container-fluid mb-4">
+
+                    <div id="butttons" class="btn-group-vertical">
+                        <input onclick="change()" type="button" value="Auto-Biography" id="btnb" button type="button"
+                            id="btnb" class="btn btn-warning"></input><br>
+                        <button type="button" id="btn1" class="btn btn-success">Exercise 1</button><br>
+                        <button type="button" id="btn2" class="btn btn-danger">Exercise 2</button><br>
+                        <button type="button" id="btn3" class="btn btn-primary">Exercise 3</button>
+
+                    </div>
+                </div>
+                <div id="autobio" style="display: none;">
+                    <div class="container-fluid mt-4">
+
+                        <div class="text-center">
+                            <p style="color: darkgray; font-size: 50px;"> My Auto-Biography</p>
+
+                            <div class="container-fluid">
+                                <!-- <img id="pp" img src="me.jpg" alt=""> -->
+                                <figure class="figure">
+                                    <img src="me.jpg" id="pp" class="figure-img img-fluid rounded" alt="...">
+                                </figure>
+                                <h1 id="pp-description" style="display: none;">“My angel, my life, my entire world,
+                                    you're the one that I want, the one that I need, let me be with you always, my love,
+                                    my everything.”
+                                    <p style="color: red;">-🍧 🎀 𝒜𝓂 𝒶 𝒮𝓌𝑒𝑒𝓉 𝐿💍𝓋𝑒𝓇 🎀 🍧
+                                    </p>
+                                    <p style="color: darkgray;">I was taking up a Certificate in Computer Technology, it
+                                        is a Passerelles Numeriques own curriculum for their scholars. Having a Course
+                                        of Computer Technology in the field of Information Technology dealing with
+                                        different
+                                        kinds of programming languages, codes, and syntaxes for me was a great
+                                        experience, because at first I thought IT don’t have any mathematics involved,
+                                        indeed it has a lot you need to have a logic in this course.
+                                        But it was a very interesting and very nice course that I am taking up right
+                                        now. I found out that I gained a lot of knowledge and lessons in this Field.
+                                    </p>
+                                </h1>
+                                <h4>안녕하세요 저는 Guian Victor Amancio, I am from Dalaguete, Cebu </h4>
+                                <p>My Friends Says that 나는 :</p>
+                                <div class="onMouseClick">
+                                    <img class="fpic" id="fpic1"
+                                        data-link="https://www.linkedin.com/in/jepoy-obiedo-7535481a1/"
+                                        src="justine.jpg" alt="" style="height: 500px;width: 500px;">
+                                    <div class="container-fluid mt-4">
+
+                                        <p class="friend1"
+                                            style="display: none; font-size: 30px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;">
+                                            Guian is chuy, Pogi, and Sweet Lover</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="onMouseClick">
+                                    <div class="container-fluid mt-4">
+                                        <div class="container-fluid mb-4">
+                                            <img class="fpic" id="fpic2"
+                                                data-link="https://www.linkedin.com/in/dave-lyndrex-millan-a269541a4/"
+                                                src="dave.png" alt="" style="height: 500px;width: 500px;">
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid mt-4">
+                                        <p class="friend2"
+                                            style="display: none; font-size: 30px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;">
+                                            Guian is Funny and easy to be With</p>
+                                    </div>
+                                    <div class="container-fluid mb-4">
+
+                                        <button type="button" id="btnAn" class="btn btn-primary">Animate</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- exercise1 -->
+
+            <div class="container">
+
+                <div class="exercise1" style="display: none;">
+                    <div class="text-center"><br><br>
+                        <h3>Exercise 1</h3>
+                        <p> Create a function that accepts a number and its number system, then convert it into a
+                            specified number system.
+                        <p> E.g. Input: 100,</p>
+                        <p> 2 (base 2), </p>
+                        <p>10 (base 10) </p>
+                        <p> Output: 4</p>
+                        </p>
+                        <div class="col-sm-4 border border-primary"
+                            style="padding:20px; margin-bottom:50px;border-radius: 20px; box-shadow: 5px 10px #888888; background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);">
+                            <div class=" mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Enter Number</label>
+                                <input type="number " class="form-control" id="firstNum" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">to base</label>
+                                <input type="number" class="form-control" id="toBase" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">result</label>
+                                <input type="number" class="form-control" id="result" aria-describedby="emailHelp">
+                            </div>
+                            <button type="button" id="btn" class="btn btn-success">convert</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- exercise 2 -->
+    <div class="container">
+
+        <div class="exercise2" style="display: none;">
+            <div class="text-center"><br><br>
+                <h3>Exercise 2</h3>
+                <p>Create a function that accepts a date in DD/MM/YY format and identify the month of the said date.
+                <p> E.g.</p>
+                <p>Input: 11/12/96</p>
+                <p>Output: December </p>
+
+                </p>
+                <div class="col-sm-4 border border-primary"
+                    style="padding:20px; margin-bottom:50px;border-radius: 20px; box-shadow: 5px 10px #888888; background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);">
+                    <div class=" mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Input Date</label>
+                        <input type="number " class="form-control" id="date" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">result</label>
+                        <input type="text" class="form-control" id="displaymonth" aria-describedby="emailHelp">
+                    </div>
+                    <button type="button" id="btnDate" class="btn btn-success">Display Month</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="exercise3" style="display: none;">
+            <div class="text-center"> <br><br>
+                <h3>Exercise 3</h3>
+                <p>Create a function that accepts a date and will determine if the said date is a weekend.
+
+                <p> E.g.</p>
+                <p>Input - December 15, 2018
+                </p>
+                <p> Output - Weekend
+                </p>
+                <p>Input - December 17, 2018
+                </p>
+                <p>Output - Weekday
+                </p>
+                </p>
+                <div class="col-sm-4 border border-primary"
+                    style="padding:20px; margin-bottom:50px;border-radius: 20px; box-shadow: 5px 10px #888888; background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);">
+                    <div class=" mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Input Date</label>
+                        <input type="number " class="form-control" id="day" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">result</label>
+                        <input type="text" class="form-control" id="displayweek" aria-describedby="emailHelp">
+                    </div>
+                    <button type="button" id="btnDay" class="btn btn-success">Display Day</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="style.js"></script>
+</body>
+
+
+</html>
+
+</html>
